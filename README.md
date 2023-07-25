@@ -31,6 +31,7 @@ According to the standard codon table, one amino acid can be encoded by differen
 
   The simulation model has three modes. First, set the different probability of neutral mutation (exclude original codon), influencing the coverage of mutation. Three cases of randomly introducing mutations in low probability (P=0.05), medium probability (P=0.5), and high probability (P=0.95) were simulated around 500 times to identify appropriate linear regression. The second mode is to manually introduce mutations that lead to the best and worst fitting. Different codons encoding the same amino acid were sorted by GC content and then the highest and lowest GC content for each sample can be calculated. Referring to the visualization of the original data, the worst case can be manually set extreme GC content to deviate from the regression line, and the best case is the opposite. The third mode detaches the original DNA sequence, considering all possible codons equally. In that case, according to every amino acid of the given sequences, all possible codons including the original codon were selected randomly to observe the theoretical results.
 After changing GC content, the relationship with protein disorder was analyzed with various evaluations.
+<img width="503" alt="image" src="https://github.com/HuangYutong2021/Simulation-of-GC-Content-Evolution/assets/79962064/9177010b-0ee0-441e-a219-83862bb090f9">
 
 
 # Sharing core codes
